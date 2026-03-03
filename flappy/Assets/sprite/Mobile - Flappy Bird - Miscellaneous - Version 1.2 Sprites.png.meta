@@ -642,9 +642,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 294
-        y: 431
-        width: 34
-        height: 23
+        y: 428
+        width: 94
+        height: 26
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -655,28 +655,6 @@ TextureImporter:
       bones: []
       spriteID: 081e4466ed9c6e3b0800000000000000
       internalID: -5483473539241287296
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Mobile - Flappy Bird - Miscellaneous - Version 1.2 Sprites_11
-      rect:
-        serializedVersion: 2
-        x: 328
-        y: 427
-        width: 60
-        height: 27
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ae961b4982a8daf20800000000000000
-      internalID: 3435553997651536362
       vertices: []
       indices: 
       edges: []
@@ -2054,7 +2032,7 @@ TextureImporter:
         width: 58
         height: 57
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2085,7 +2063,73 @@ TextureImporter:
       Flappy-1: 1056323664804065294
       Flappy-2: -1140478425515490406
       Game-Over: 6341464390685209381
+      Mobile - Flappy Bird - Miscellaneous - Version 1.2 Sprites_0: -3028843797619237106
+      Mobile - Flappy Bird - Miscellaneous - Version 1.2 Sprites_10: -5483473539241287296
+      Mobile - Flappy Bird - Miscellaneous - Version 1.2 Sprites_11: 3435553997651536362
+      Mobile - Flappy Bird - Miscellaneous - Version 1.2 Sprites_14: -3928390806445110986
+      Mobile - Flappy Bird - Miscellaneous - Version 1.2 Sprites_16: 4623261541612039627
+      Mobile - Flappy Bird - Miscellaneous - Version 1.2 Sprites_17: -4350432165510783863
+      Mobile - Flappy Bird - Miscellaneous - Version 1.2 Sprites_18: -6664834790808235504
+      Mobile - Flappy Bird - Miscellaneous - Version 1.2 Sprites_19: 899315075292468769
+      Mobile - Flappy Bird - Miscellaneous - Version 1.2 Sprites_20: 4544740185937911964
+      Mobile - Flappy Bird - Miscellaneous - Version 1.2 Sprites_21: -1316629030113354382
+      Mobile - Flappy Bird - Miscellaneous - Version 1.2 Sprites_22: 8213362460969047956
+      Mobile - Flappy Bird - Miscellaneous - Version 1.2 Sprites_23: 6954940756037168498
+      Mobile - Flappy Bird - Miscellaneous - Version 1.2 Sprites_24: 8851216312826537037
+      Mobile - Flappy Bird - Miscellaneous - Version 1.2 Sprites_27: -5448222425035498909
+      Mobile - Flappy Bird - Miscellaneous - Version 1.2 Sprites_28: 2605493221635795637
+      Mobile - Flappy Bird - Miscellaneous - Version 1.2 Sprites_3: 335599229034294550
+      Mobile - Flappy Bird - Miscellaneous - Version 1.2 Sprites_32: 7657971641369001171
+      Mobile - Flappy Bird - Miscellaneous - Version 1.2 Sprites_33: 6834464153330302644
+      Mobile - Flappy Bird - Miscellaneous - Version 1.2 Sprites_34: -482916728542518544
+      Mobile - Flappy Bird - Miscellaneous - Version 1.2 Sprites_35: 130905987737466139
+      Mobile - Flappy Bird - Miscellaneous - Version 1.2 Sprites_36: -1591810857648882687
+      Mobile - Flappy Bird - Miscellaneous - Version 1.2 Sprites_37: -8016496738626711856
+      Mobile - Flappy Bird - Miscellaneous - Version 1.2 Sprites_38: -9207332337269509191
+      Mobile - Flappy Bird - Miscellaneous - Version 1.2 Sprites_39: 3866810811520338665
+      Mobile - Flappy Bird - Miscellaneous - Version 1.2 Sprites_4: 3741567129739655578
+      Mobile - Flappy Bird - Miscellaneous - Version 1.2 Sprites_40: 7648348387410161992
+      Mobile - Flappy Bird - Miscellaneous - Version 1.2 Sprites_41: 3965268410832695304
+      Mobile - Flappy Bird - Miscellaneous - Version 1.2 Sprites_42: 1355879829499780443
+      Mobile - Flappy Bird - Miscellaneous - Version 1.2 Sprites_43: -2308190887210959028
+      Mobile - Flappy Bird - Miscellaneous - Version 1.2 Sprites_44: 5022205057594878992
+      Mobile - Flappy Bird - Miscellaneous - Version 1.2 Sprites_45: -1149763652461100259
+      Mobile - Flappy Bird - Miscellaneous - Version 1.2 Sprites_46: -489013281449517811
+      Mobile - Flappy Bird - Miscellaneous - Version 1.2 Sprites_47: -4164417760473522579
+      Mobile - Flappy Bird - Miscellaneous - Version 1.2 Sprites_48: -6436550963862677255
+      Mobile - Flappy Bird - Miscellaneous - Version 1.2 Sprites_49: -3016112269392186590
+      Mobile - Flappy Bird - Miscellaneous - Version 1.2 Sprites_5: -4430035543856620939
+      Mobile - Flappy Bird - Miscellaneous - Version 1.2 Sprites_50: 3537081509339508498
+      Mobile - Flappy Bird - Miscellaneous - Version 1.2 Sprites_51: 6144816979141319645
+      Mobile - Flappy Bird - Miscellaneous - Version 1.2 Sprites_52: 2048223339202631646
+      Mobile - Flappy Bird - Miscellaneous - Version 1.2 Sprites_55: 8959818511006310400
+      Mobile - Flappy Bird - Miscellaneous - Version 1.2 Sprites_56: -6483787682828667861
+      Mobile - Flappy Bird - Miscellaneous - Version 1.2 Sprites_57: -8191772816379095192
+      Mobile - Flappy Bird - Miscellaneous - Version 1.2 Sprites_58: 4201528073331481381
+      Mobile - Flappy Bird - Miscellaneous - Version 1.2 Sprites_59: 2991294587912167201
+      Mobile - Flappy Bird - Miscellaneous - Version 1.2 Sprites_6: -3822089909960428999
+      Mobile - Flappy Bird - Miscellaneous - Version 1.2 Sprites_60: -3057008780085685020
+      Mobile - Flappy Bird - Miscellaneous - Version 1.2 Sprites_61: 8121714761433590931
+      Mobile - Flappy Bird - Miscellaneous - Version 1.2 Sprites_62: 8409229947600726150
+      Mobile - Flappy Bird - Miscellaneous - Version 1.2 Sprites_63: -3340885136670613588
+      Mobile - Flappy Bird - Miscellaneous - Version 1.2 Sprites_64: -2836295732086359070
+      Mobile - Flappy Bird - Miscellaneous - Version 1.2 Sprites_65: -6053829190182954677
+      Mobile - Flappy Bird - Miscellaneous - Version 1.2 Sprites_66: 4292274979745669445
+      Mobile - Flappy Bird - Miscellaneous - Version 1.2 Sprites_67: -8403785220595585528
+      Mobile - Flappy Bird - Miscellaneous - Version 1.2 Sprites_68: -1609221549900870387
+      Mobile - Flappy Bird - Miscellaneous - Version 1.2 Sprites_69: -2624072331606996443
+      Mobile - Flappy Bird - Miscellaneous - Version 1.2 Sprites_7: 7165992625904498086
+      Mobile - Flappy Bird - Miscellaneous - Version 1.2 Sprites_70: -8757283971043318085
+      Mobile - Flappy Bird - Miscellaneous - Version 1.2 Sprites_71: 6284081554915882698
+      Mobile - Flappy Bird - Miscellaneous - Version 1.2 Sprites_72: -6566187506724280842
+      Mobile - Flappy Bird - Miscellaneous - Version 1.2 Sprites_73: 4418428744136845448
+      Mobile - Flappy Bird - Miscellaneous - Version 1.2 Sprites_74: -2273723988912934231
+      Mobile - Flappy Bird - Miscellaneous - Version 1.2 Sprites_78: -8526706937375059277
+      Mobile - Flappy Bird - Miscellaneous - Version 1.2 Sprites_79: 7417950305089921534
+      Mobile - Flappy Bird - Miscellaneous - Version 1.2 Sprites_8: 8429115218152209709
+      Mobile - Flappy Bird - Miscellaneous - Version 1.2 Sprites_80: 6615753734836925697
       Mobile - Flappy Bird - Miscellaneous - Version 1.2 Sprites_81: -1048275881
+      Mobile - Flappy Bird - Miscellaneous - Version 1.2 Sprites_9: 7872081108920916189
       flappy-3: 7446298840931430197
       ground: -4561133946181240693
       pipe-down: -9212221691092033360
