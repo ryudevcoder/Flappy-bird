@@ -1,5 +1,6 @@
 using System;
 using UnityEngine;
+using UnityEngine.Audio;
 using Random = UnityEngine.Random;
 
 public class pipeBehaviour : MonoBehaviour
@@ -16,7 +17,8 @@ public class pipeBehaviour : MonoBehaviour
         
         if (transform.position.x <= PositionFinal)
         {
-            transform.localPosition=new Vector3(PositionInicial,transform.position.y,transform.position.z);
+            //transform.localPosition=new Vector3(PositionInicial,Random.Range(AlturaMax,AlturaMin),transform.position.z);
+            Destroy(gameObject);
         }
     
     }
