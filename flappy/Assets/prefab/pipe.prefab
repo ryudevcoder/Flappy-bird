@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 8430704648280457845}
   m_Layer: 0
   m_Name: pipe
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -47,10 +47,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   MoveSpeed: 1
-  PositionFinal: -1.29
-  PositionInicial: 0.523
-  AlturaMax: 0.382
-  AlturaMin: -0.342
+  alturaMax: 0.4
+  alturaMin: -0.4
 --- !u!1 &2309676993097672324
 GameObject:
   m_ObjectHideFlags: 0
@@ -64,7 +62,7 @@ GameObject:
   - component: {fileID: 1623788987639222382}
   m_Layer: 0
   m_Name: pipe-up
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -177,7 +175,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: -0.0014572442, y: -0.0069606304}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -187,7 +185,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 0.28, y: 1.62}
+  m_Size: {x: 0.24330801, y: 1.6060786}
   m_EdgeRadius: 0
 --- !u!1 &7952865257204337468
 GameObject:
@@ -202,7 +200,7 @@ GameObject:
   - component: {fileID: 8115588572461408735}
   m_Layer: 0
   m_Name: pipe-down
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -315,7 +313,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: -0.010078669, y: -0.0063575506}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -325,5 +323,5 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 0.28, y: 1.62}
+  m_Size: {x: 0.24640441, y: 1.599222}
   m_EdgeRadius: 0

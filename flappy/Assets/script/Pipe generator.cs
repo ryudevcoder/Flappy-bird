@@ -1,23 +1,29 @@
+using System;
+using System.Collections;
+using Unity.Mathematics;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.Audio;
 
 public class Pipegenerator : MonoBehaviour
 {
-    private float SpawnRate;
-    private float ElapsedTime;
+    [SerializeField]private GameObject pipePrefab;
     
-    
-    void update()
+    [SerializeField] public float spawnRate;
+
+
+    private void Start()
     {
-        ElapsedTime += Time.deltaTime;
-        if (ElapsedTime >= SpawnRate)
+        StartCoroutine(SpawnPipe());
+    }
+
+    private IEnumerator SpawnPipe()
+    {
+        while (true)
         {
-            SpawnRate = Random.Range(0.8f, 1.2f);
-            ElapsedTime = 0;
+            yield return new WaitForSeconds(spawnRate);
+            GameObject SpawnedPipe=Instantiate(pipePrefab,transform.position,quaternion.identity);
+            Destroy(SpawnedPipe,5f);
         }
     }
-    
-    
-    
 }
