@@ -7,19 +7,15 @@ public class PlayerBehaviour : MonoBehaviour
 {
     [SerializeField] private float jumpForce = 3;
     [SerializeField] private float rotationSpeed = 10;
-    [SerializeField] private GameObject GameOver;
-    private bool isGameOver = false;
     private Rigidbody2D rigidbody;
 
 
-    private void Start()
-    {
-        GameOver.SetActive(false);
-    }
+
 
     private void Awake()
     {
         rigidbody = GetComponent<Rigidbody2D>();
+        Time.timeScale = 0f;
     }
 
     private void Update()
@@ -38,11 +34,8 @@ public class PlayerBehaviour : MonoBehaviour
 
     void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.CompareTag("Ground")) 
-        {
-            Time.timeScale = 0f;
-            GameOver.SetActive(true);
-            isGameOver = true;
-        }
+        print("Collided with" + collision.gameObject.name);
+        jumpForce = 0;
+        GameManager.Instance.GameOver();
     }
 }
