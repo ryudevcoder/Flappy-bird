@@ -1,4 +1,5 @@
 using System;
+using TMPro;
 using UnityEngine;
 using UnityEngine.Audio;
 using UnityEngine.Serialization;
@@ -10,6 +11,7 @@ public class pipeBehaviour : MonoBehaviour
     [SerializeField] private float alturaMax=0.382f;
     [SerializeField] private float alturaMin=-0.342f;
 
+
     private void Awake()
     {
         transform.localPosition=new Vector3(transform.position.x,Random.Range(alturaMax,alturaMin),transform.position.z);
@@ -19,5 +21,5 @@ public class pipeBehaviour : MonoBehaviour
     {
         transform.Translate(Vector2.left * MoveSpeed * Time.deltaTime);
     }
-    
+
 }

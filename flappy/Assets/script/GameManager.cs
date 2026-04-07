@@ -45,7 +45,7 @@ public class GameManager : MonoBehaviour
     {
         GameOverScreen.SetActive(true);
         Time.timeScale = 0f;
-
+        AudioManager.instance.PlayDie();
     }
 
 }
